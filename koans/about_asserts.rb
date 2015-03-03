@@ -21,7 +21,7 @@ class AboutAsserts < Neo::Koan
   def test_assert_equality
     expected_value = 2
     actual_value = 1 + 1
->>>>>>> In order for the assert to be correct I had to add an equal value
+#in order for the assert to be correct I had to add an equal value
 
     assert expected_value == actual_value
   end
@@ -36,6 +36,6 @@ class AboutAsserts < Neo::Koan
 
   # Sometimes we will ask you to fill in the values
   def test_fill_in_values
-    assert_equal __, 1 + 1
+    assert_equal 2, 1 + 1
   end
 end
