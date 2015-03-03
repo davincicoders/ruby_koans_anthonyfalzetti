@@ -14,13 +14,18 @@ class AboutAsserts < Neo::Koan
   # messages.
   def test_assert_with_message
     assert true, "This should be true -- Please fix this"
-  end
+  end 
 
   # To understand reality, we must compare our expectations against
   # reality.
   def test_assert_equality
+<<<<<<< HEAD
     expected_value = __
     actual_value = 1 + 1 + 2
+=======
+    expected_value = 2
+    actual_value = 1 + 1
+>>>>>>> In order for the assert to be correct I had to add an equal value
 
     assert expected_value == actual_value
   end
